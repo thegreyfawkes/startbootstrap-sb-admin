@@ -1,3 +1,5 @@
+Copy of the the SB Admin bootstrap...so that I can change things and not accidentally send it back? I'm sure they'd have something to prevent a billion ppl from trying to push changes to their master, but i'd rather be safe than sorry.
+
 # [Start Bootstrap - SB Admin](https://startbootstrap.com/template-overviews/sb-admin/)
 
 [SB Admin](http://startbootstrap.com/template-overviews/sb-admin/) is an open source, admin dashboard template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
