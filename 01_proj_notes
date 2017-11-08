@@ -1,0 +1,28 @@
+Untouched files from secure login project moved here:
+_______________________________________
+startbootstrap-sb-admin/
+    /inc/
+        /activationform.php
+        /loginform.php
+        /registerform.php
+        /userpage.php
+    /class/
+        /user.php
+    /activate.php
+    /config.php
+    /landing.php
+    /login.php
+    /logout.php
+    /register.php
+    /user.php
+_____________________________________
+
+Goals:
+** Use this bootstrap's login.html with the secure login/blog's acct registration and user login code
+** Maintain sessions and user pages as utilized in the secure login/blog's code
+** Separate PHP from HTML pages ("separation of concerns")
+    NOTE: May be a bit above what I can do. Try anyways.
+
+Prerequisites:
+** Identify data that can be collected, stored in a DB, and used in the graphs/charts from the dashboard on 'index.html'
+
