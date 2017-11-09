@@ -1,8 +1,8 @@
 <?php
-    require_once '../class/user.php';
+    require_once 'class/user.php';
     require_once 'config.php';
 
-    $user->registerfile();
+//    $user->registerfile();
 
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $fname = filter_input(INPUT_POST, 'fname', FILTER_SANITIZE_STRING);

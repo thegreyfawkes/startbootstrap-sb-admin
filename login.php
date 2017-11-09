@@ -1,5 +1,5 @@
 <?php
-    require_once '../class/user.php';
+    require_once 'class/user.php';
     require_once 'config.php';
 
     $email = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_EMAIL);
@@ -7,6 +7,7 @@
 
     if( $user->login( $email, $password) ) {
         die;
+        header( 'Location: index.html' );
     } else {
         $user->printMsg();
         die;

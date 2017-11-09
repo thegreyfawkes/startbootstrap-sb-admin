@@ -11,14 +11,14 @@ define('dbPass', 'verystrongpassword');
 define('userfile', 'user.php');
 define('loginfile', 'login.php');
 define('activatefile', 'activate.php');
-define('registerfile', 'register.html');
+define('registerfile', 'register.php');
 define('loginhead', 'inc/loginhead.html');
 define('loginbody', 'inc/loginbody.php');
 //define('loginForm', 'inc/loginform.php');     <-Old syntax from prev proj
 define('loginForm', 'inc/loginbody.php');
 define('activationForm', 'inc/activationform.php');
 //define('landingMiddle', 'inc/landingmiddle.htm');
-define('registerForm', 'inc/registerform.php');
+define('registerForm', 'register.php');
 //define('landingFooter', 'inc/landingfooter.htm');
 
 /* Template INDEX */
