@@ -11,7 +11,7 @@ startbootstrap-sb-admin/
     /activate.php
     /config.php
     /landing.php
-    /login.php
+    /login.php"
     /logout.php
     /register.php
     /user.php

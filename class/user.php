@@ -336,6 +336,14 @@ class User{
     * Template for LANDING head function
     * @return void.
     */
+    public function loginbody() {
+        print $this->render(loginbody);
+    }
+    
+    public function loginhead() {
+        print $this->render(loginhead);
+    }
+    
     public function landingHead() {
         print $this->render(landingHead);
     }
